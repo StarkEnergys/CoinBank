@@ -1,0 +1,140 @@
+
+/* brands */
+@font-face {
+  font-family: 'brands';
+  src: url('../../fonts/webfonts/fa-brands-400.eot');
+  src: url('../../fonts/webfonts/fa-brands-400.eot')
+  format('embedded-opentype'),
+  url('../../fonts/webfonts/fa-brands-400.woff2') 
+  format('woff2'), url('../../fonts/webfonts/fa-brands-400.woff') 
+  format('woff'), url('../../fonts/webfonts/fa-brands-400.ttf') 
+  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.brands {
+  display: inline-block;
+  font: normal normal normal 14px/1 'brands';
+  font-size: inherit;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.user::before {
+  content: "\E007";
+}
+/* brands */
+
+
+
+
+/* regular */
+@font-face {
+  font-family: 'regular';
+  src: url('../../fonts/webfonts/fa-regular-400.eot');
+  src: url('../../fonts/webfonts/fa-regular-400.eot') 
+  format('embedded-opentype'), 
+  url('../../fonts/webfonts/fa-regular-400.woff2') 
+  format('woff2'), url('../../fonts/webfonts/fa-regular-400.woff') 
+  format('woff'), url('../../fonts/webfonts/fa-regular-400.ttf') 
+  format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+}
+.regular{
+  display: inline-block;
+  font: normal normal normal 14px/1 'regular';
+  font-size: inherit;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.user::before {
+  content: "\F007";
+}
+/* regular */
+
+
+
+/* solid */
+@font-face {
+  font-family: 'solid';
+  src: url('../../fonts/webfonts/fa-regular-400.eot');
+  src: url('../../fonts/webfonts/fa-regular-400.eot') 
+  format('embedded-opentype'), 
+  url('../../fonts/webfonts/fa-regular-400.woff2') 
+  format('woff2'), url('../../fonts/webfonts/fa-regular-400.woff') 
+  format('woff'), url('../../fonts/webfonts/fa-regular-400.ttf') 
+  format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+}
+.solid{
+  display: inline-block;
+  font: normal normal normal 14px/1 'solid';
+  font-size: inherit;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.user::before {
+  color: rgb(51, 139, 221);
+  content: "\F007";
+}
+
+.ID-CARD::before {
+  
+  content: "\F2C2";
+}
+/* solid */
+
+
+/* mat-icon */
+@font-face {
+  font-family: 'mat-icon';
+  src:url('../../fonts/mat-icon/MaterialIcons-Regular.ttf')format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+}
+.mat-icon{
+  
+  display: inline-block;
+  font: normal normal normal 14px/1.8 'mat-icon';
+  font-size:inherit;
+  text-transform: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.user::before {
+  color: rgb(51, 139, 221);
+  content: "\E55A";
+}
+
+.dolar::before {
+  
+  content: "\F041";
+}
+
+.recive::before {
+  
+  content: "\E5DB";
+}
+
+.send::before {
+  
+  content: "\E5D8";
+}
+
+.dashboard::before {
+  
+  content: "\E84F";
+}
+
+.verified::before {
+  content: "\ef76";
+}
+
+/* mat-icon */

@@ -1,0 +1,43 @@
+
+
+<div class="body">
+   
+    
+      
+      <div class="login">
+      
+        
+
+        <div class="spinner-border spinner" *ngIf="cargando" >
+
+        <span class="sr-only">Loading...</span>
+
+        </div>
+
+        <form *ngIf="!cargando" [formGroup]="Torm" (ngSubmit)="ingresar()">
+
+        <div class="line">
+        <img src ="../../../assets/img/CoinBank.ico" width = "70"  >
+        </div>
+            <p>login</p>
+      
+           
+            <div class="form-group" appearance="fill">
+                <input type="text" class="form-control entrada" autocomplete="off"  formControlName="username">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control entrada" autocomplete="off"  formControlName="password" >
+            </div>
+
+         
+           
+            
+           
+           <button type="submit" class="btn ancho btn-primary"  [disabled] = "Torm.invalid"> Login</button>
+         
+        </form>
+      </div>
+
+  
+
+   </div>   

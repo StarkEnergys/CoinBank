@@ -1,0 +1,76 @@
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="card ">
+     <div class="col-md-8 order-md-1">
+      <h4 class="mb-3">Dirección de Envio</h4>
+      <form class="needs-validation">
+        <div class="row">
+          
+        </div>
+
+        
+
+        
+        <hr class="mb-4">
+        
+        
+       
+
+        <h4 class="mb-3">Pagos</h4>
+
+        <div class="d-block my-3">
+
+          
+          <div class="custom-control custom-radio">
+            
+
+
+            <input id="paypal" (click)="eventos()"  name="paymentMethod" type="checkbox" class="custom-control-input" required="">
+            <label class="custom-control-label" for="paypal">Pago Amigo</label>
+          </div>
+        </div>
+         
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <select class="custom-select">
+            <option selected>Enviar a un amigo</option>
+            <option value="1">C20784148</option>
+            <option value="2">M12784184</option>
+            <option value="3">N12360062</option>
+            </select>
+          </div>
+          </div>
+
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="cc-name">hacer pago ID</label>
+            <input type="text" [disabled]="Hola" class="form-control" id="cc-name"  placeholder="" required="" >
+          
+            
+            <small class="text-muted">Ejemplo C20784148</small>
+            <div class="invalid-feedback">
+              Name on card is required
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 mb-3">
+            <label for="cc-expiration">Monto Apagar</label>
+            <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+            <div class="invalid-feedback">
+              Expiration date required
+            </div>
+          </div>
+          
+        </div>
+        <hr class="mb-4">
+        <button class="btn btn-primary btn-lg btn-block" type="submit">Pagar</button>
+      </form>
+    </div>
+      
+  </div>
+</div>
+</div>
+
+

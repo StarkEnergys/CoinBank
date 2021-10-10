@@ -1,0 +1,47 @@
+
+
+@import 'coinbank/variables';
+@import 'coinbank/mixins';
+
+// Plugins CSS
+@import "coinbank/plugins/plugin-animate-bootstrap-notify";
+@import "coinbank/plugins/plugin-perfect-scrollbar";
+
+// Core CSS
+@import "coinbank/buttons";
+@import "coinbank/inputs";
+@import "coinbank/typography";
+@import "coinbank/misc";
+@import "coinbank/checkboxes-radio";
+
+
+// components
+@import "coinbank/navbar";
+@import "coinbank/page-header";
+@import "coinbank/dropdown";
+@import "coinbank/alerts";
+@import "coinbank/images";
+@import "coinbank/nucleo-outline";
+@import "coinbank/tables";
+@import "coinbank/sidebar-and-main-panel";
+@import "coinbank/footers";
+@import "coinbank/fixed-plugin";
+
+// cards
+@import "coinbank/cards";
+@import "coinbank/cards/card-plain";
+@import "coinbank/cards/card-chart";
+@import "coinbank/cards/card-user";
+@import "coinbank/cards/card-map";
+@import "coinbank/cards/card-stats";
+
+// angular differences
+@import "coinbank/angular/plugin-ngx-toastr";
+@import "coinbank/angular/sidebar-and-main-panel";
+@import "coinbank/angular/dropdown";
+@import "coinbank/angular/inputs";
+@import "coinbank/angular/fixed-plugin";
+
+@import "coinbank/responsive";
+
+@import "coinbank/iconosStarkEnergys";
